@@ -17,7 +17,7 @@
         font-size: 50px;
         line-height: 65px;
     }
-    .we_do_box h4 {
+    .Supernova_box h4 {
         font-size: 25px;
     }
     .cont span {
@@ -43,7 +43,7 @@
     .text-bg h1 {
         font-size: 64px;
     }
-    .asked .titlepage h2 {
+    .ne_yapıyoruz .titlepage h2 {
         font-size: 32px;
     }
     .text-bg a {
@@ -61,7 +61,7 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #fff;
+        background: #145da0;
         padding: 20px;
         margin-top: 52px;
         position: absolute;
@@ -86,11 +86,11 @@
     .carousel-control-prev-icon {
         display: none;
     }
-    .sign_btn {
+    .biz_kimiz {
         padding-left: 0px;
     }
-    .sign_btn a {
-        color: #000;
+    .biz_kimiz a {
+        color: #ffffff;
     }
 }
 
@@ -117,7 +117,7 @@
         font-size: 35px;
         line-height: 40px;
     }
-    .asked .titlepage h2 {
+    .ne_yapıyoruz .titlepage h2 {
         font-size: 18px;
         line-height: 38px;
     }
@@ -137,7 +137,7 @@
     .main_form {
         padding: 30px 20px;
     }
-    .testimonial_Carousel {
+    .biz_kimiz_Carousel {
         padding: 0;
     }
     #myCarousel .carousel-control-prev,
@@ -152,7 +152,7 @@
         margin-top: -55px;
     }
     .navigation .navbar-collapse {
-        background: #fff;
+        background: #145da0;
         padding: 20px;
         margin-top: 56px;
         position: absolute;
@@ -162,24 +162,24 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: #000;
+        color: #ffffff;
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;
         margin-right: 2px;
         border: inherit;
     }
-    .testimonial_box {
+    .biz_kimiz_box {
         padding: 0px 19px 40px 20px;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
     }
-    .sign_btn a {
-        color: #000
+    .biz_kimiz a {
+        color: #ffffff
     }
-    .sign_btn {
+    .biz_kimiz {
         padding-left: 0px;
     }
     .carousel-control-next-icon,

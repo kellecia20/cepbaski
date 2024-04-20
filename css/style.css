@@ -35,7 +35,7 @@ html {
 }
 
 body {
-     color: #666666;
+     color: #000000;
      font-size: 14px;
      font-family: 'Raleway', sans-serif;
      line-height: 1.80857;
@@ -43,7 +43,7 @@ body {
 }
 
 a {
-     color: #1f1f1f;
+     color: #000000;
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
@@ -65,7 +65,7 @@ h6 {
      padding: 0;
      font-weight: normal;
      line-height: normal;
-     color: #111111;
+     color: #000000;
      margin: 0
 }
 
@@ -82,7 +82,8 @@ h3 {
 }
 
 h4 {
-     font-size: 16px
+     font-size: 16px;
+     color: white;
 }
 
 h5 {
@@ -107,7 +108,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-     color: #212121;
+     color: #000000;
      text-decoration: none!important;
      opacity: 1
 }
@@ -132,7 +133,7 @@ p {
 }
 
 a {
-     color: #222222;
+     color: #000000;
      text-decoration: none;
      outline: none !important;
 }
@@ -160,7 +161,7 @@ img {
 .btn-custom {
      margin-top: 20px;
      background-color: transparent !important;
-     border: 2px solid #ddd;
+     border: 2px solid #ffffff;
      padding: 12px 40px;
      font-size: 16px;
 }
@@ -218,7 +219,7 @@ button {
 }
 
 .theme_bg {
-     background: #38c8a8;
+     background: #145da0;
 }
 
 .margin_top_30 {
@@ -265,12 +266,11 @@ button {
 /*-- navigation--*/
 
 .navigation.navbar {
+     margin-top: 10px;
      float: right;
-     padding-top: 12px;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0 25px;
      color: #fff;
      font-size: 16px;
      line-height: 20px;
@@ -278,24 +278,22 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #c0a808;
+     color: rgb(255, 255, 255);
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fdd430;
+     color: rgb(255, 255, 255);
 }
 
-.sign_btn {
-     padding-left: 50px;
-}
 
-.sign_btn a {
+
+.Supernova a {
      background-color: transparent;
      display: inline-block;
-     color: #fff;
+     color: #ffffff;
      font-size: 17px;
 }
 
@@ -310,12 +308,17 @@ button {
 
 .header {
      width: 100%;
-     background: #232323;
+     background: #145da0;
      padding: 20px 30px;
 }
 
+.logo a img{
+     height: 67px;
+     width: auto;
+}
+
 .logo a {
-     font-size: 40px;
+     font-size: 20px;
      font-weight: bold;
      text-transform: uppercase;
      color: #fff;
@@ -324,7 +327,7 @@ button {
 
 .banner_main {
      padding: 90px 0;
-     background: url(../images/banner.jpg);
+     background: #5b98ba;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding-top: 60px;
@@ -392,9 +395,10 @@ button {
 }
 
 .text-img1 figure img {
+     margin-top: -100px;
      width: 100%;
      max-width: 313px;
-     ;
+
      border: #232323 solid 14px;
      border-radius: 300px;
      float: left;
@@ -421,18 +425,18 @@ button {
 }
 
 
-/** we_do section **/
+/** Supernova section **/
 
 .padd_left0 {
      padding-left: 0;
 }
 
-.we_do {
+.Supernova {
      background: #232323;
      padding: 90px 0px 60px 0px;
 }
 
-.we_do .titlepage h2 {
+.Supernova .titlepage h2 {
      color: #fff;
      padding-bottom: 10px;
 }
@@ -446,7 +450,7 @@ button {
 }
 
 .titlepage strong {
-     border-top: #e5af23 solid 1px;
+     border-top: #5b98ba solid 1px;
      width: 260px;
      position: absolute;
      left: 0;
@@ -455,8 +459,8 @@ button {
      top: 61px;
 }
 
-.we_do_box i {
-     border: #ceab06 solid 4px;
+.Supernova_box i {
+     border: #5b98ba solid 4px;
      width: 160px;
      height: 160px;
      display: flex;
@@ -468,17 +472,17 @@ button {
      cursor: pointer;
 }
 
-.we_do_box i:hover {
+.Supernova_box i:hover {
      width: 140px;
      height: 140px;
      transition: ease-in all 0.2s;
 }
 
-.we_do_box {
+.Supernova_box {
      text-align: center;
 }
 
-.we_do_box h4 {
+.Supernova_box h4 {
      color: #fff;
      text-transform: uppercase;
      font-size: 30px;
@@ -488,68 +492,67 @@ button {
      padding-top: 35px;
 }
 
-.we_do_box p {
+.Supernova_box p {
      color: #fff;
      font-size: 17px;
      line-height: 28px;
      padding: 25px 0;
 }
 
-.we_do .read_more {
+.Supernova .read_more {
      margin: 0 auto;
      display: block;
 }
 
 
-/** end we_do section **/
+/** end Supernova section **/
 
 
-/** testimonial section **/
+/** biz_kimiz section **/
 
-.testimonial {
+.biz_kimiz {
      margin-top: 90px;
      padding-bottom: 90px;
      background: #fff;
      padding-top: 60px;
 }
 
-.testimonial .titlepage h2 {
+.biz_kimiz .titlepage h2 {
      color: #232323;
      padding-bottom: 10px;
 }
 
-.testimonial .titlepage span {
+.biz_kimiz .titlepage span {
      background-color: #232323;
 }
 
-.testimonial_Carousel .carousel-caption {
+.biz_kimiz_Carousel .carousel-caption {
      position: inherit;
 }
 
-.testimonial_box figure {
+.biz_kimiz_box figure {
      margin: 0;
 }
 
-.testimonial_box figure img {}
 
-.testimonial_box {
+.biz_kimiz_box {
      text-align: left;
      background: #fff;
      box-shadow: #ddd 0px 0px 10px 0px;
      padding: 0px 40px 40px 40px;
 }
 
-.testimonial_Carousel .test_box .jons {
+.biz_kimiz_Carousel .test_box .jons {
      text-align: left;
      margin-bottom: 4px;
      margin-left: -10px;
 }
 
-.testimonial_Carousel {
+.biz_kimiz_Carousel {
      padding: 0 60px;
 }
 
-.testimonial_Carousel .test_box .jons h4 {
+.biz_kimiz_Carousel .test_box .jons h4 {
      font-size: 25px;
      color: #090808;
      line-height: 32px;
@@ -557,18 +560,18 @@ button {
      display: inline-block;
 }
 
-.testimonial_Carousel .test_box .jons figure {
+.biz_kimiz_Carousel .test_box .jons figure {
      margin: 0;
 }
 
-.testimonial_Carousel .test_box p {
+.biz_kimiz_Carousel .test_box p {
      font-size: 17px;
      line-height: 28px;
      color: #090808;
      text-align: left;
 }
 
-.testimonial_Carousel .carousel-indicators {
+.biz_kimiz_Carousel .carousel-indicators {
      display: none;
 }
 
@@ -576,16 +579,17 @@ button {
 #myCarousel .carousel-control-next {
      width: 62px;
      height: 62px;
-     background: #deae25;
+     background: #5b98ba;
      opacity: 1;
      font-size: 28px;
      color: #fff;
      top: 50%;
      border-radius: 30px;
+     padding-top: 7px;
 }
 
 
-/** end testimonial section **/
+/** end biz_kimiz section **/
 
 
 /** contact section **/
@@ -655,7 +659,7 @@ button {
 }
 
 .contact .main_form .send_btn:hover {
-     background-color: #ddad25;
+     background-color: #5b98ba;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
@@ -670,19 +674,20 @@ button {
 /** end contact section **/
 
 
-/** asked section **/
+/** ne_yapıyoruz section **/
 
-.asked {
-     padding: 90px 0;
+.ne_yapıyoruz {
+     padding:0;
+     padding-bottom: 50px;
      background-color: #fff;
 }
 
-.asked .titlepage h2 {
+.ne_yapıyoruz .titlepage h2 {
      padding-bottom: 10px;
      color: #080707;
 }
 
-.asked .titlepage span {
+.ne_yapıyoruz .titlepage span {
      background-color: #232323;
 }
 
@@ -691,7 +696,7 @@ button {
      color: #292928;
      font-size: 30px;
      line-height: 30px;
-     border-bottom: #ce9b1c solid 1px;
+     border-bottom: #5b98ba solid 1px;
      padding-bottom: 15px;
 }
 
@@ -714,7 +719,7 @@ button {
 }
 
 
-/** end asked section **/
+/** end ne_yapıyoruz section **/
 
 .read_more {
      font-size: 17px;
@@ -747,9 +752,9 @@ button {
      text-align: center;
 }
 
-.cont h3 {
+.cont h4 {
      color: #fff;
-     font-size: 45px;
+     font-size: 16px;
      line-height: 60px;
      font-weight: 501;
 }
@@ -793,3 +798,8 @@ button {
 
 /** end footer **/
 
+.urunler{
+     height: 300px;
+     object-fit: cover;
+     width: auto;
+}
